@@ -5,13 +5,16 @@ stage('git checkout'){
 steps {
 echo 'this is checkout phase' 
 }
+}
 stage('build'){
 steps{
 echo 'this is build phase'
 }
+}
 stage('test'){
 steps{
 echo 'this is testing phase'
+}
 }
 stage('deploy'){
 steps{
